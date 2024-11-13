@@ -6,22 +6,23 @@ Installation -----------
 
 1. Clone the Repository
 
-    < git clone https://github.com/Usamafuward/Rag-Pipeline-For-PDF-Analysis.git >
+    git clone https://github.com/Usamafuward/Rag-Pipeline-For-PDF-Analysis.git
+    cd Rag-Pipeline-For-PDF-Analysis
 
-2. Create a Virtual Environment
+3. Create a Virtual Environment
 
-    < python -m venv venv >
-    < ./venv/Scripts/activate >        # On Windows
+    python -m venv venv
+    ./venv/Scripts/activate
 
-3. Install Dependencies
+4. Install Dependencies
 
-    < pip install -r requirements.txt >
+    pip install -r requirements.txt
 
-4. Set Up Environment Variables
+5. Set Up Environment Variables
 
     Create a .env file in the project root and add GOOGLE_API_KEY=<your-google-generative-ai-api-key>
 
 ######
 Run The Application -----------
 
-    < streamlit run main.py >
+    streamlit run main.py
